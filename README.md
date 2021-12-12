@@ -42,13 +42,13 @@ You can only go fast if you go well
 Learn outside work & improve in the work, don’t learn bad practice.
 Deliver will stuck if they don’t know how to deliver good product timely.
 
-Lecture#2 
+Lecture#2
 The path is much easier and clearer when you know the step-by-step
- 3 steps to test
+3 steps to test
 	1.Arrange (Given)
 		sut = system under test, which thing to test in test method 	
 	2. Act (When)
 	3. Assert (Then)
- Lecture #3
+Lecture #3
     1. spy can be stub but stub cannot be spy
         1. as spy captures events & can contain predefined properties.
