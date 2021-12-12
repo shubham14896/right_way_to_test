@@ -24,6 +24,8 @@
 		08DCEFA32744274E004657A0 /* CurrencyExchanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCEFA22744274E004657A0 /* CurrencyExchanger.swift */; };
 		08DCEFA72744290E004657A0 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCEFA62744290E004657A0 /* Amount.swift */; };
 		519CA11C27645B4E007328A1 /* CrashCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519CA11B27645B4E007328A1 /* CrashCourseTests.swift */; };
+		519CA12327650014007328A1 /* FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519CA12227650014007328A1 /* FriendsTests.swift */; };
+		519CA12527659857007328A1 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519CA12427659857007328A1 /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		08DCEFA62744290E004657A0 /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
 		519CA11927645B4E007328A1 /* CrashCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519CA11B27645B4E007328A1 /* CrashCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashCourseTests.swift; sourceTree = "<group>"; };
+		519CA12227650014007328A1 /* FriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTests.swift; sourceTree = "<group>"; };
+		519CA12427659857007328A1 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				080163C92743D39600930886 /* Assets.xcassets */,
 				080163CB2743D39600930886 /* LaunchScreen.storyboard */,
 				080163CE2743D39600930886 /* Info.plist */,
+				519CA12427659857007328A1 /* FriendsViewController.swift */,
 			);
 			path = CrashCourse;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				519CA11B27645B4E007328A1 /* CrashCourseTests.swift */,
+				519CA12227650014007328A1 /* FriendsTests.swift */,
 			);
 			path = CrashCourseTests;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				080164862743D61B00930886 /* User.swift in Sources */,
+				519CA12527659857007328A1 /* FriendsViewController.swift in Sources */,
 				0801647F2743D61B00930886 /* FriendsCache.swift in Sources */,
 				0801647B2743D61B00930886 /* ListViewController.swift in Sources */,
 				080164842743D61B00930886 /* MainTabBarController.swift in Sources */,
@@ -250,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				519CA11C27645B4E007328A1 /* CrashCourseTests.swift in Sources */,
+				519CA12327650014007328A1 /* FriendsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
